@@ -22,3 +22,11 @@ consisting of these edits detailing the command line.
 THis is done to see how the local command-line interacts with github:
 * will the remote (github web page) branch and edits be visible?
 * how to get them?
+Okay so used the following in the local shell:
+1. git remote -v
+2. git fetch origin
+
+So #1 showed a fetch and push named origin pointing to the repository on github. excellent.
+Well that #2 did NOT fetch the UNCOMMITTED new branch...but maybe that is the point!
+
+So now commit this branch and repeat the #2 to update the local copy...
