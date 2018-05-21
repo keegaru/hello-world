@@ -30,3 +30,11 @@ So #1 showed a fetch and push named origin pointing to the repository on github.
 Well that #2 did NOT fetch the UNCOMMITTED new branch...but maybe that is the point!
 
 So now commit this branch and repeat the #2 to update the local copy...
+
+It is not that the remote branches are invisible, in fact, they are available at the local
+Use this to see them all
+1. git branch -a
+use this to just look at one
+1. git checkout master/some-branch
+use this to work on a branch
+1. git checkout some-branch
